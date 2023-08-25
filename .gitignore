@@ -1,0 +1,11 @@
+manifoldpy
+manifoldpy/*
+__pycache__/*
+__pycache__
+*.pyc
+api_key.txt
+cache.csv
+logfile.log
+.DS_Store
+*/.DS_Store
+permabear.py

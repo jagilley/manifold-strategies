@@ -20,6 +20,9 @@ class Strategy:
 
     def strategy(self, market: Market):
         raise NotImplementedError
+    
+    def get_position(self, market: Market):
+        raise NotImplementedError
 
     def evaluate_strategy(self, price_init: float, price_final: float, position: str):
         if position == 'YES':
